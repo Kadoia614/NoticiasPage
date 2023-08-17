@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Ruwudu&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/scss/style.css">
+    <!-- Bootstrap -->
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <title>Noticías</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container px-5 pt-5">
+                <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="Logo cli"></a>
+                <button class="navbar-toggler py-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><img src="./img/icon-menu.svg" alt="icon menu"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Popular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">Categories</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-5 px-5 pb-5">
+        <section>
+            <div class="row">
+                <div id="banner" class="col-lg-8 mb-2 pe-lg-5">
+                    <img class="w-100" src="./img/image-web-3-desktop.jpg" alt="img banner">
+                    <div class="row mt-4 justify-content-between">
+                        <div class="col-md-6 col-xl-5">
+                            <h1 class="mt-1">The Bright Future of Web 3.0?</h1>
+                        </div>
+                        <div class="col-md-6 col-xl-7 d-flex flex-column">
+                            <p class="h-100">We dive into the next evolution of the web that claims to put the power of
+                                the platforms back into the hands of the people. But is it really fulfilling its
+                                promise?</p>
+                            <p class="mb-0">
+                                <a class="read-banner px-4 py-2" type="button">READ MORE</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="noticias" class="col-lg-4 mb-2 p-4">
+                    <article>
+                        <h1>New</h1>
+                        <article class="py-3">
+                            <h5>Hydrogen VS Electric Cars</h5>
+                            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                        </article>
+                        <article class="py-3">
+                            <h5>The Downsides of AI Artistry</h5>
+                            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+                        </article>
+                        <article class="pt-3">
+                            <h5>Is VC Funding Drying Up?</h5>
+                            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                        </article>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5">
+            <div id="destaques" class="row">
+                <div class="col-lg-4 mt-lg-0 mt-2">
+                    <div class="card d-flex flex-row">
+                        <img src="./img/image-retro-pcs.jpg" class="card-img-top" alt="card img">
+                        <div class="card-body p-0 ps-3">
+                            <h3 class="card-title">01</h3>
+                            <h6 class="fw-bold">Reviving Retro PCs</h6>
+                            <p class="card-text">What happens when old PCs are given modern upgrades?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-lg-0 mt-2">
+                    <div class="card d-flex flex-row">
+                        <img src="./img/image-top-laptops.jpg" class="card-img-top" alt="card img">
+                        <div class="card-body p-0 ps-3">
+                            <h3 class="card-title">02</h3>
+                            <h6 class="fw-bold">Top 10 Laptops of 2022</h6>
+                            <p class="card-text">Our best picks for various needs and budgets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-lg-0 mt-2">
+                    <div class="card d-flex flex-row">
+                        <img src="./img/image-gaming-growth.jpg" class="card-img-top" alt="card img">
+                        <div class="card-body p-0 ps-3">
+                            <h3 class="card-title">03</h3>
+                            <h6 class="fw-bold">The Growth of Gaming</h6>
+                            <p class="card-text">How the pandemic has sparked fresh opportunities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

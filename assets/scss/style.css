@@ -1,0 +1,68 @@
+body {
+  background-color: hsl(36, 100%, 99%);
+  font-family: "Inter", sans-serif !important;
+  font-size: 15px;
+}
+body header nav .nav-link:hover {
+  color: hsl(5, 85%, 63%);
+}
+body p {
+  color: hsl(236, 13%, 42%);
+}
+body h1 {
+  font-size: 3rem;
+  color: black;
+  font-weight: 800;
+}
+body a {
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+body #banner .read-banner {
+  background-color: hsl(240, 100%, 5%);
+}
+body #banner .read-banner:hover {
+  background-color: hsl(5, 85%, 63%);
+}
+body #noticias {
+  background: hsl(240, 100%, 5%);
+}
+body #noticias p {
+  color: hsl(233, 8%, 79%);
+}
+body #noticias h1 {
+  color: hsl(35, 77%, 62%);
+}
+body #noticias article:not(:last-child) {
+  border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+body #noticias article h5 {
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+body #noticias article h5:hover {
+  color: hsl(35, 77%, 62%);
+}
+body #destaques .card {
+  height: 100%;
+  border-radius: 0;
+  border: none;
+}
+body #destaques .card .card-body {
+  padding: 0;
+}
+body #destaques .card .card-body h3 {
+  color: hsl(233, 8%, 79%);
+  font-weight: 800;
+}
+body #destaques .card .card-body h6:hover {
+  color: hsl(35, 77%, 62%);
+}
+body #destaques .card img {
+  border-radius: 0;
+  width: 90px;
+}
+
+/*# sourceMappingURL=style.css.map */
